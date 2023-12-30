@@ -31,46 +31,23 @@ footer {
     text-decoration: none;
 }
 
-.software-info{
-    margin-top: 3rem;
-}
-
-.software-info p{
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.software-info .download-btn{
-    margin: 20px 0;
-}
-.software-info .download-btn {
-    margin: 20px 0;
-    padding: 8px 20px;
-}
-.software-logo{
-    border-radius: 20px;
-}
-
-.software-info-item{
+.i-info-item{
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-.software-info-item-title{
+.i-info-item-title{
     padding: 3px 15px;
     background-color: #dee2e6;
     font-size: 16px;
 }
 
-.software-info-item-content{
-    margin-top: 20px;
-    font-size: 14px;
-}
-
-.software-info-item-content img{
+.i-info-item img{
     margin: 10px 0;
+    width: 100%;
 }
 
-.software-info-item a{
+.i-info-item a{
     color: #000;
 }
 
