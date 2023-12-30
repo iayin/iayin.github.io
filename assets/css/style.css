@@ -54,3 +54,7 @@ footer {
 .card-me a{
     text-decoration: none;
 }
+
+.video-js{
+    width: 100%;
+}
