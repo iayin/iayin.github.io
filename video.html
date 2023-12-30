@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频 - L&Y的生活日志</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <!-- bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <!-- video-js -->
+    <link href="/assets/css/video-js.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/layouts/header.html");
+            $("#footer").load("/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="i-info-item">
+                <span class="i-info-item-title">2023-12-12</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p>挥不去的阴霾，让我为你掩埋</p>
+                        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">
+                            <source src="/assets/video/2023-12-12.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="i-info-item">
+                <span class="i-info-item-title">2011-9-1</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p>最初的相遇，一段纯洁美好的回忆</p>
+                        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">
+                            <source src="/assets/video/2011-9-1.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+    <!-- video-js -->
+    <script src="/assets/js/video.min.js"></script>
+</body>
+
+</html>

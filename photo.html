@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>照片 - L&Y的生活日志</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <!-- bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/layouts/header.html");
+            $("#footer").load("/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="i-info-item">
+                <span class="i-info-item-title">2023-12-29</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p>第一次合照</p>
+                        <img src="/assets/photo/2023/2023-12-29_1.jpg">
+                        <img src="/assets/photo/2023/2023-12-29_2.jpg">
+                        <img src="/assets/photo/2023/2023-12-29_3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="i-info-item">
+                <span class="i-info-item-title">2023-12-17</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p>WWL&GXY</p>
+                        <img src="/assets/photo/2023/2023-12-17_0.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
