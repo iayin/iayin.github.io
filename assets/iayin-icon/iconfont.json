@@ -1,0 +1,30 @@
+{
+  "id": "4396518",
+  "name": "iayin.cn",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2474499",
+      "name": "love",
+      "font_class": "love",
+      "unicode": "e7cd",
+      "unicode_decimal": 59341
+    },
+    {
+      "icon_id": "7749535",
+      "name": "l",
+      "font_class": "l",
+      "unicode": "eb88",
+      "unicode_decimal": 60296
+    },
+    {
+      "icon_id": "7749553",
+      "name": "y",
+      "font_class": "y",
+      "unicode": "eb8c",
+      "unicode_decimal": 60300
+    }
+  ]
+}
